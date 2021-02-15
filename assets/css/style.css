@@ -13,6 +13,9 @@ a:hover{
     background: black;
     padding: 5px;
 }
+.section{
+    overflow: hidden;
+}
 .uper_heaer{
     background-color: black;
     font-size: 14px;
