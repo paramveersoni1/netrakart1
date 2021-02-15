@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1199px){
+    .banner_text.banner_2 {
+        height: 77%;
+    }
+    .banner_2 h4{
+        font-size: 19px; 
+    }
+    .banner_text{
+        left: 24px;
+    }
+    /* product */
+    .text_color{
+        font-size: 17px;
+    }
+    .product_icons{
+        left: 15px;
+    }
+}
+@media only screen and (max-width: 991px){
+    /* instagram-section */
+    .banner_text.banner_2 {
+        height: 82%;
+    }
+    .banner_2 h4{
+        font-size: 22px; 
+    }
+    /* product_section */
+    .text_color{
+        font-size: 20px;
+    }
+    .product_icons{
+        left: 42px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .nav-main-icons {
+        margin-left: 20%;
+    }
+    .coll-border{
+        border-right:none;
+    }
+    /* instagram-section */
+    .banner_text.banner_2 {
+        height: 50%;
+    }
+    .banner_text {
+        left: 135px;
+    }
+}
+@media only screen and (max-width: 567px){
+    .product_icons {
+        left: 160px;
+    }
+    .text_color{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .nav-main-icons {
+        margin-left: 6%;
+    }
+    .nav-logo {
+        width: 55px;
+        height: 55px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light{
+        margin-left: 0%;
+    }
+    /* product-section */
+    .product_icons {
+        left: 90px;
+    }
+   
+    /* instagram-banners */
+    .banner_2 h4{
+          font-size: 16px;
+    }
+    .banner_text.banner_2 {
+        height: 62%;
+    }
+    .banner_text {
+        left: 70px;
+    }
+    .banner_img {
+        height: 350px;
+        object-fit: cover;
+    }
+}
