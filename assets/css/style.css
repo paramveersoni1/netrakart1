@@ -275,3 +275,102 @@
     color: #fff;
     border: 1px solid #000;
   }
+  /* offer_section */
+  .offer_info h2{
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .offer_info h3{
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    color: #888;
+    font-size: 22px;
+    transition: all 0.5s ease;
+    margin-bottom: 0;
+  }
+  .offer_info{
+    font-family: emoji;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .offer_inner{
+    position: relative;
+  }
+  .offer_inner img{
+    width: 100%;
+  }
+  .offer_inner:hover .offer_info h2{
+     color: #f8ae00;
+  }
+  .offer_info2{
+    bottom: 40px;
+  }
+  .offer_3{
+    bottom: 40px;
+  }
+  /* brands */
+/* footer */
+.footer{
+  width: 100%;
+    background: #272727;
+    padding: 50px 0;
+}
+.serice_content{
+  position: relative;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    text-align: left;
+    background: #333;
+    padding: 17px 20px;
+}
+.serice_content i{
+  font-size: 50px;
+  color: #fff;
+}
+.serice_content a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 6px 20px;
+}
+.serice_content span{
+  font-weight: 400;
+}
+.serice_content span:hover{
+  color: #fff;
+}
+.service_info:hover .serice_content a{
+  color: #f0c7c3;
+}
+.service_info:hover .serice_content i{
+  color: #f0c7c3;
+}
+.footer_inner h3{
+  font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.footer_list li a{
+  color: #c4c4c4;
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: 400;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer_inner li a i{
+  font-size: 20px;
+    color: #f8ae00;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 37%;
+}

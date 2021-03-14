@@ -9,6 +9,10 @@
         width: 100%;
         object-fit: cover;
     }
+    /* banner-2 offeres */
+    .offer_parant {
+        display: flex;
+    }
 }
 @media screen and (max-width: 767px){
     .collection_right {
@@ -24,9 +28,16 @@
         display: inline-block;
         flex-wrap: wrap;
     }
+    /* banner-2 offeres */
+    .offer_parant {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 480px){
+    .section{
+        padding: 30px 0;
+      }
     .pick_info h2{
         font-size: 16px;
     }
@@ -37,5 +48,8 @@
         font-size: 16px;
     }
     /* collection */
-    
+    /* offer-section */
+    .offer_3 {
+        bottom: 20px;
+    }
 }
