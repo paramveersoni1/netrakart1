@@ -1,88 +1,41 @@
-@media only screen and (max-width: 1199px){
-    .banner_text.banner_2 {
-        height: 77%;
+@media screen and (max-width: 991px){
+    .collection_left {
+        background: #f3f3f3;
+        padding: 42px 2px 0 40px;
+        width: 39%;
     }
-    .banner_2 h4{
-        font-size: 19px; 
-    }
-    .banner_text{
-        left: 24px;
-    }
-    /* product */
-    .text_color{
-        font-size: 17px;
-    }
-    .product_icons{
-        left: 15px;
-    }
-}
-@media only screen and (max-width: 991px){
-    /* instagram-section */
-    .banner_text.banner_2 {
-        height: 82%;
-    }
-    .banner_2 h4{
-        font-size: 22px; 
-    }
-    /* product_section */
-    .text_color{
-        font-size: 20px;
-    }
-    .product_icons{
-        left: 42px;
-    }
-}
-@media only screen and (max-width: 767px){
-    .nav-main-icons {
-        margin-left: 20%;
-    }
-    .coll-border{
-        border-right:none;
-    }
-    /* instagram-section */
-    .banner_text.banner_2 {
-        height: 50%;
-    }
-    .banner_text {
-        left: 135px;
-    }
-}
-@media only screen and (max-width: 567px){
-    .product_icons {
-        left: 160px;
-    }
-    .text_color{
-        font-size: 17px;
-    }
-}
-@media only screen and (max-width: 480px){
-    .nav-main-icons {
-        margin-left: 6%;
-    }
-    .nav-logo {
-        width: 55px;
-        height: 55px;
-    }
-    nav.navbar.navbar-expand-lg.navbar-light{
-        margin-left: 0%;
-    }
-    /* product-section */
-    .product_icons {
-        left: 90px;
-    }
-   
-    /* instagram-banners */
-    .banner_2 h4{
-          font-size: 16px;
-    }
-    .banner_text.banner_2 {
-        height: 62%;
-    }
-    .banner_text {
-        left: 70px;
-    }
-    .banner_img {
+    .collection_right img {
         height: 350px;
+        width: 100%;
         object-fit: cover;
     }
+}
+@media screen and (max-width: 767px){
+    .collection_right {
+        width: 100%;
+    }
+    .collection_left {
+        background: #f3f3f3;
+        padding: 42px 2px 12px 28px;
+        width: 100%;
+    }
+    .collection_inner {
+        position: relative;
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .pick_info h2{
+        font-size: 16px;
+    }
+    .btn_main{
+        padding: 8px 15px;
+    }
+    .product_info a{
+        font-size: 16px;
+    }
+    /* collection */
+    
 }
