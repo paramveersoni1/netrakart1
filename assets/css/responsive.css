@@ -1,4 +1,7 @@
 @media screen and (max-width: 991px){
+    .nav-top{
+        display: none;
+    }
     .collection_left {
         background: #f3f3f3;
         padding: 42px 2px 0 40px;
