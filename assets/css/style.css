@@ -233,6 +233,9 @@ body {
 .pick_inner a {
   color: #000;
 }
+.pick_inner a:hover{
+  text-decoration: none;
+}
 .pick_info:before{
   content: "";
   position: absolute;
@@ -242,7 +245,9 @@ body {
   left: 17px;
   top: 25px;
 }
-
+a:hover{
+  text-decoration: none;
+}
 /* collection_section */
 .collection_inner{
   position: relative;
